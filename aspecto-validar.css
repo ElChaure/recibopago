@@ -1,0 +1,102 @@
+
+/* Aspecto de ficha-cdi */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(fondo-11.png);
+    margin:0 auto;
+	width: 60%;
+	float: center;
+	
+	}
+	
+h4{
+	padding-top: 20px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 10px;
+	font-size:25px;
+	color: #009;
+   
+}
+h3{color:#0000;
+	font-size:25px;
+	font-family: arial;
+	padding: 20 20px;}
+h1{
+	padding-top: 20px;
+	color: #fff;
+
+}
+
+.centrado{
+	font-family: verdana;
+	font-size: 20;
+	text-align: center;
+	background-color:#10AC9F;
+	height: 80px;
+	width: 100%;
+	margin-bottom: 0px;
+	margin-top: 20px;
+	float:right;	
+	
+}
+
+img#logo{
+	float:left;
+	display: block;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+p{
+	color:#F00;
+	font-size:18px;
+	font-family: arial;
+	text-align: center;
+	}
+.tabla{
+	margin: 20 auto;
+	padding: 0 10px;
+	}
+.formulario{
+	font-family: verdana;
+	font-size: 10;
+	background-color:#off;
+	height: 300px;
+	width: 70%;
+	margin-top: 0 auto;
+	padding-top:5px;
+
+}
+input[name="cedula"]{
+	background:#OFF;
+	cursor:pointer;
+	font-family: verdana;
+	font-size:100%;
+	text-align:center;
+	width: 70%;
+	padding:0 auto;
+
+}
+
+input[name="reg"] {
+	margin-bottom:0;
+	width: 15%;
+	height:30px;
+	font-family: verdana;
+	font-size: 16;
+	background:#10AC9F;
+	color:#fff;
+	border:none;
+	float:right;
+	}
+
+input[name="reg"]:hover {
+	background:#OFF;
+	cursor:pointer;
+	font-size:20px;
+}

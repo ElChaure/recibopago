@@ -1,0 +1,114 @@
+
+/* Aspecto de ficha-cdi */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: url(fondo-11.png);
+    margin:0 auto;
+	
+	
+	width: 90%;
+	float: center;
+	
+	}
+	
+h4{
+	padding-top: 20px;
+	margin-bottom: 0px;
+	padding-left: 0px;
+	padding-right: 10px;
+	font-size:25px;
+	color: #0000;
+   
+}
+h3{color:red;
+	font-size:25px;
+	font-family: arial;
+	padding-top: 15px;}
+h1{
+	padding-top: 20px;
+	color: #fff;
+
+}
+
+.centrado{
+	font-family: verdana;
+	font-size: 20;
+	text-align: center;
+	background-color:#10AC9F;
+	height: 80px;
+	width: 100%;
+	margin-bottom: 0px;
+	margin-top: 20px;
+	float:right;	
+	
+}
+
+img#logo{
+	float:left;
+	display: block;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+.tabla{
+	margin: 3 auto;}
+.formulario{
+	font-family: verdana;
+	font-size: 20;
+	background-color:#off;
+	height: 0px;
+	width: 70%;
+	margin-top: 0 auto;
+	padding-top:5px;
+
+}
+p{
+	color:#F00;
+	font-size:18px;
+	font-family: arial;
+	text-align: center;
+	}
+input[name="reg"] {
+	margin-bottom:0;
+	width: 10%;
+	height:30px;
+	font-family: verdana;
+	font-size: 16;
+	background:#10AC9F;
+	color:#fff;
+	border:none;
+	float:right;
+	}
+input[name="validar"] {
+	margin-bottom:0;
+	width: 15%;
+	height:30px;
+	font-family: verdana;
+	font-size: 16;
+	background:#10AC9F;
+	color:#fff;
+	border:none;
+	float:left;
+	}
+input[name="reg"]:hover {
+	background:#OFF;
+	cursor:pointer;
+	font-size:20px;
+}
+input[name="validar"]:hover {
+	background:#OFF;
+	cursor:pointer;
+	font-size:20px;
+}
+
+img{
+	border:none;
+	}
+#obj{float:left;
+	display: block;
+
+}
